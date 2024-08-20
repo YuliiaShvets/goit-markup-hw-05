@@ -611,11 +611,10 @@ padding: 72px 24px 24px 24px;
     border: none; 
 }
 
-
-.modal-icon-item:hover,
-.modal-icon-item:focus{
-    fill: #ffffff
-    }
+.modal-close-btn:hover .modal-icon-item,
+.modal-close-btn:focus .modal-icon-item{
+    fill: #ffffff;
+}
 
 .modal-icon-item{
     fill: #111;
